@@ -1,0 +1,37 @@
+
+@font-face {
+    font-family: 'Spoqa Han Sans JP';
+    font-weight: 700;
+
+    src: local('Spoqa Han Sans JP Bold'),
+    url('https://jyp-cdn.azureedge.net/font/SpoqaHanSansJPBold.woff2') format('woff2'),
+    url('https://jyp-cdn.azureedge.net/font/SpoqaHanSansJPBold.woff') format('woff'),
+    url('https://jyp-cdn.azureedge.net/font/SpoqaHanSansJPBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Spoqa Han Sans JP';
+    font-weight: 400;
+    src: local('Spoqa Han Sans JP Regular'),
+    url('https://jyp-cdn.azureedge.net/font/SpoqaHanSansJPRegular.woff2') format('woff2'),
+    url('https://jyp-cdn.azureedge.net/font/SpoqaHanSansJPRegular.woff') format('woff'),
+    url('https://jyp-cdn.azureedge.net/font/SpoqaHanSansJPRegular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Spoqa Han Sans JP';
+    font-weight: 300;
+    src: local('Spoqa Han Sans JP Light'),
+    url('https://jyp-cdn.azureedge.net/font/SpoqaHanSansJPLight.woff2') format('woff2'),
+    url('https://jyp-cdn.azureedge.net/font/SpoqaHanSansJPLight.woff') format('woff'),
+    url('https://jyp-cdn.azureedge.net/font/SpoqaHanSansJPLight.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Spoqa Han Sans JP';
+    font-weight: 100;
+    src: local('Spoqa Han Sans JP Thin'),
+    url('https://jyp-cdn.azureedge.net/font/SpoqaHanSansJPThin.woff2') format('woff2'),
+    url('https://jyp-cdn.azureedge.net/font/SpoqaHanSansJPThin.woff') format('woff'),
+    url('https://jyp-cdn.azureedge.net/font/SpoqaHanSansJPThin.ttf') format('truetype');
+}

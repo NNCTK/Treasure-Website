@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    
+
+<meta charset="utf-8">
+<meta content="ie=edge" http-equiv="x-ua-compatible">
+<title>TREASURE</title>
+
+<meta content="width=1200" name="viewport" />
+<meta name="description">
+
+<meta property="og:title" content="TREASURE" />
+<meta property="og:type" content="website" />
+<link rel="shortcut icon" href="profile/TREASURE_logo1.png">
+<meta property="og:description" content="Official Website">
+
+
+<link href="Css/common.css" rel="stylesheet">
+<link href="Css/ui.css" rel="stylesheet">
+<link href="Css/animate.css" rel="stylesheet">
+<link href="Css/magnific-popup.css" rel="stylesheet">
+
+
+<link href='Css/SpoqaHanSans-kr.css' rel='stylesheet' type='text/css'>
+<link href='Css/SpoqaHanSans-jp.css' rel='stylesheet' type='text/css'>
+<link href="Css/css2family..css" rel="stylesheet">
+
+<script src="bundles/jquery.js"></script>
+
+<script src="bundles/jqueryval.js"></script>
+
+<script src="bundles/ui.js"></script>
+
+<script src="bundles/modal_video_pc.js"></script>
+
+<script src="bundles/common_pc.js"></script>
+
+<script src="bundles/common_wow_pc.js"></script>
+
+    
+    <script type="text/javascript">            
+        $(document).ready(function () {
+            init();
+        });
+
+        $(function () {
+            var player = $('[data-youtube]').youtube_background();
+
+            $("#stop").click(function () {
+                //video
+                $("#vdo_div").hide();
+                $("#stop").hide();
+
+                //img
+                $("#img_div").show();
+                $("#play").show();
+            });
+
+            $("#play").click(function () {
+                //video
+                $("#vdo_div").show();
+                $("#stop").show();
+
+                //img
+                $("#img_div").hide();
+                $("#play").hide();     
+
+                location.reload();
+            });
+        });
+
+        function init() {
+            $("#img_div").hide();
+            $("#play").hide();
+        }
+    </script>
+
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="bundles/js_id.js" + UA-46828308-37></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-46828308-37');
+    </script>   
+    
+   
+</head>
+<body>
+    <!-- Wrap -->
+  <div id="wrap">
+        <input id="PointColor" name="PointColor" type="hidden" value="#a81629" />
+
+        
+
+<!-- Header -->
+	  
+<div id="header" class="main_hd">
+    <div class="ArtistLogo_txt main_logo">
+        <a href="Treasure.html">
+        <img src="profile/TREASURE_logo2.png" alt="logo">
+        </a>
+    </div>
+    <button class="ham_menu" onclick="openNav()" type="button">
+		<img src="profile/menu.png" alt="menu"></button>	
+</div>
+	  
+<!-- //Header -->
+	  
+<!-- Menu -->
+<nav id="mySidenav" class="gnb">
+    <div class="ArtistLogo_txt">
+        <a href="Treasure.html">
+            <img src="profile/TREASURE_logo1.png" alt="logo">
+        </a>
+    </div>
+    <button class="ham_menu_close" type="button" onclick="closeNav()"><img src="profile/btn_siteMenu_close.png" alt="close menu"></button>
+    <ul class="gnb_list">
+                 <li>
+                    <a href="history/history.html">HISTORY</a>
+                </li>
+		        <li>
+                    <a href="profile/Profile.html">PROFILE</a>
+                </li>
+                <li>
+                    <a href="DiscographyList/DiscographyList.html">DISCOGRAPHY</a>
+                </li>
+                <li>
+                    <a href="GL/Gallery.html">GALLERY</a>
+                </li>
+                <li>
+                    <a href="Video/VIDEO1.html">VIDEO</a>
+                </li>
+
+    </ul>
+
+    <!-- Footer -->
+    
+    <ul class="sns_menu">
+                <li>
+                    <a href="https://www.instagram.com/yg_treasure_official/" target="_blank"><img alt="INSTAR" src="Footer/sns_instagram_b.png"></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/ygtreasuremaker" target="_blank"><img alt="TWITER" src="Footer/sns_twitter_b.png"></a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/OfficialTreasure" target="_blank"><img alt="FACEBOOK" src="Footer/sns_facebook_b.png"></a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/OfficialTreasure" target="_blank"><img alt="YOUTUBE" src="Footer/sns_youtube_b.png"></a>
+                </li>
+                <li>
+                    <a href="https://www.vlive.tv/channel/B978B7" target="_blank"><img alt="VLIVE" src="Footer/sns_vlive_b.png"></a>
+                </li>
+                <li>
+                    <a href="https://open.spotify.com/artist/3KonOYiLsU53m4yT7gNotP" target="_blank"><img alt="SPORTIFY" src="Footer/spotify-B.png"></a>
+                </li>
+    </ul>
+    <!-- //Footer -->
+</nav>
+<!-- //Menu -->
+
+
+        
+    <style>
+        html, body {
+            font-family: 'Lato', sans-serif;
+            color: #1d1d1d;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .example-marquee {
+            position: relative;
+        }
+
+        .content {
+            display: table;
+            width: 100%;
+            min-height: 100vh;
+            z-index: 1;
+            position: relative;
+        }
+
+            .content .inner {
+                display: table-cell;
+                vertical-align: middle;
+                text-align: center;
+                padding-left: 16px;
+                padding-right: 16px;
+            }
+
+                .content .inner h1 {
+                    font-size: 62px;
+                    color: white;
+                    text-shadow: 0px 1px 3px rgba(0,0,0,0.5);
+                }     
+
+        iframe {
+            transition: opacity 500ms ease-in-out;
+            transition-delay: 250ms;            
+        }
+    </style>
+
+
+
+
+<script src="../bundles/youtube-background.js"></script>
+
+<script src="../bundles/fancybox.js"></script>
+
+<link href="../bundles/fancybox81.js" rel="stylesheet"/>
+
+
+<!-- Content-->
+    <div class="container">
+
+        <div class="main_bkbg"></div>
+            <div class="main_bgimg wow fadeIn" data-wow-delay="0.0s" style="background-image: url('homepage/1.jpg')"></div>
+
+        <div class="right_cont">
+            <div class="main_album wow fadeInRight" data-wow-delay="0.1s">
+
+                    <div class="main_album_name wow fadeInRight" data-wow-delay="0.2s">
+                       <a href="history/history.html">
+                            <img src="homepage/treasure(name).png" alt="Name" class="icon">
+                        </a>
+                    </div>
+
+                <div class="main_line"></div>
+            </div>
+
+                    <div class="main_notice wow fadeInRight" data-wow-delay="0.5s">
+                       <div class="textWrap image-set">
+                <a class="video" data-fancybox href="https://www.youtube.com/watch?v=UKXeico0yeI">
+                    <div class="play">
+                        <img class="svg-icon" src="homepage/PLAY.png" />
+                    </div>
+                </a>
+            </div>
+						<div class="main_n_tt"><a>MUSIC VIDEO</a></div>
+                        <div class="main_n_stt">
+                            <a>
+                                TREASURE - 'BEAUTIFUL'
+                            </a>
+                        </div>
+                    </div>
+        </div>
+    </div>
+<!-- //Content -->
+
+
+
+<!-- Footer -->
+<div id="footer">
+    
+    <ul class="sns">
+                <li>
+                    <a href="https://www.instagram.com/yg_treasure_official" target="_blank"><img alt="INSTAR" src="Footer/sns_instagram.png"></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/ygtreasuremaker" target="_blank"><img alt="TWITER" src="Footer/sns_twitter.png"></a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/OfficialTreasure" target="_blank"><img alt="FACEBOOK" src="Footer/sns_facebook.png"></a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/OfficialTreasure" target="_blank"><img alt="YOUTUBE" src="Footer/sns_youtube.png"></a>
+                </li>
+                <li>
+                    <a href="https://www.vlive.tv/channel/B978B7" target="_blank"><img alt="VLIVE" src="Footer/sns_vlive.png"></a>
+                </li>
+                <li>
+                    <a href="https://open.spotify.com/artist/3KonOYiLsU53m4yT7gNotP" target="_blank"><img src="Footer/spotify-W.png" alt="SPOTIFY"></a>
+                </li>
+               
+    </ul>
+</div>
+<!-- //Footer -->
+
+    </div>
+    <!-- //Wrap -->
+</body>
+</html>
